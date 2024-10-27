@@ -28,7 +28,7 @@ return new class extends Migration
             $table->binary('image');
             $table->string('category');
             $table->integer('ISBN');
-            $table->string('description');
+            $table->text('description');
             $table->integer('quantity');
             $table->date('publication_date');
             $table->string('edition');
